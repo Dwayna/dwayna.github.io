@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Página de inicio</title>
+		<link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- OpenSearch -->
+		<link rel="search" type="application/opensearchdescription+xml" title="MDN Web Docs" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/mdn.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="FilmAffinity" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/filmaffinity.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="Documentación de Microsoft" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/microsoft.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="Traducir al inglés" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/deepl-es-en.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="Revisión de gramática y estilo" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/languagetool.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="YouTube" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/youtube.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="CloudTube" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/cloudtube.xml">
+		<link rel="search" type="application/opensearchdescription+xml" title="Libreddit" href="https://gist.githubusercontent.com/dwayna/4efed035b61b1ec37c73f055e9370155/raw/libreddit.xml">
+	</head>
+	<body class="">
+		<!-- Theme Button -->
+		<button id="themeButton">
+			<i id="themeButton__icon" data-feather="moon"></i>
+		</button>
+
+		<div class="container">
+			<!-- Clock and Greetings -->
+			<div class="timeBlock">
+				<div class="clock">
+					<div id="hour" class=""></div>
+					<div id="separator" class=""></div>
+					<div id="minutes" class=""></div>
+				</div>
+				<div id="greetings" class=""></div>
+			</div>
+
+			<!-- Date and Weather -->
+			<div class="weatherBlock">
+				<div class="weatherBlock__date">
+					<div id="day" class=""></div>
+					<div id="month" class=""></div>
+				</div>
+				<div class="weatherBlock__weather">
+					<div class="weather-icon">
+						<img src="icons/unknown.png" alt="">
+					</div>
+					<div class="temperature-value">
+						<p class="">- °<span class="g">c</span></p>
+					</div>
+					<div class="temperature-description">
+						<p class=""></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Buttons Links https://feathericons.com/ -->
+			<div class="buttonLink">
+				<a href="bookmarks.html" target="_blank" rel="noopener noreferrer nofollow" class="buttonLink__link card buttonLink__link-1"><i class="buttonLink__icon" data-feather="bookmark"></i></a>
+				<a href="https://beta.booky.io/" target="_blank" rel="noopener noreferrer nofollow" class="buttonLink__link card buttonLink__link-2"><i class="buttonLink__icon" data-feather="heart"></i></a>
+				<a href="https://www.icloud.com/" target="_blank" rel="noopener noreferrer nofollow" class="buttonLink__link card buttonLink__link-3"><i class="buttonLink__icon" data-feather="cloud"></i></a>
+				<a href="https://mail.tilde.team/" target="_blank" rel="noopener noreferrer nofollow" class="buttonLink__link card buttonLink__link-4"><i class="buttonLink__icon" data-feather="mail"></i></a>
+				<a href="https://rss.tildeverse.org/" target="_blank" rel="noopener noreferrer nofollow" class="buttonLink__link card buttonLink__link-5"><i class="buttonLink__icon" data-feather="rss"></i></a>
+				<a href="https://wallabag.nixnet.services" target="_blank" rel="noopener noreferrer nofollow" class="buttonLink__link card buttonLink__link-6"><i class="buttonLink__icon" data-feather="file-text"></i></a>
+			</div>
+
+			<!-- List 1 -->
+			<div class="card list list__1"><i class="list__head" data-feather="star"></i>
+				<a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Letterboxd</a>
+				<a href="https://r.uhs.repl.co" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Reddit</a>
+				<a href="https://www.mediavida.com/" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Mediavida</a>
+				<a href="https://www.hltv.org/" target="_blank" rel="noopener noreferrer nofollow" class="list__link">HLTV</a>
+				<a href="https://www.deepl.com/translator" target="_blank" rel="noopener noreferrer nofollow" class="list__link">DeepL</a>
+				<a href="https://www.myanonamouse.net" target="_blank" rel="noopener noreferrer nofollow" class="list__link">My Anonamouse</a>
+				<a href="https://my.nextdns.io" target="_blank" rel="noopener noreferrer nofollow" class="list__link">NextDNS</a>
+				<a href="https://192.168.1.1/" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Router</a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+			</div>
+
+			<!-- List 2 -->
+			<div class="card list list__2"><i class="list__head" data-feather="youtube"></i>
+				<a href="https://piped.kavin.rocks/feed" target="_blank" rel="noopener noreferrer nofollow" class="list__link">YouTube</a>
+				<a href="https://www.deezer.com/es/" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Deezer</a>
+				<a href="https://bandcamp.com/babythingsweet/feed" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Bandcamp</a>
+				<a href="https://discord.com/app" target="_blank" rel="noopener noreferrer nofollow" class="list__link">Discord</a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+				<a href="" target="_blank" rel="noopener noreferrer nofollow" class="list__link"></a>
+			</div>
+		</div>
+
+		<!-- Scrips -->
+		<script src="js/feather.js"></script>
+		<script src="js/time.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/greeting.js"></script>
+		<script src="js/weather.js"></script>
+	</body>
+</html>
